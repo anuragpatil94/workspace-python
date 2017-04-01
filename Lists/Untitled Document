@@ -1,0 +1,5 @@
+fread=open('/home/anurag/PythonWorkspace/mbox-short.txt','r')
+count=0
+for line in fread:
+    count=count+1
+print count
